@@ -68,7 +68,7 @@ const App: () => Node = () => {
         <Header />
 
         <Text style={styles.highlight}>
-          This is the testing for CI/CD
+          This is the testing for CI/CD, make the build automatically
         </Text>
 
         <View
