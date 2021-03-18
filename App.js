@@ -66,6 +66,11 @@ const App: () => Node = () => {
         contentInsetAdjustmentBehavior="automatic"
         style={backgroundStyle}>
         <Header />
+
+        <Text style={styles.highlight}>
+          This is the testing for CI/CD
+        </Text>
+
         <View
           style={{
             backgroundColor: isDarkMode ? Colors.black : Colors.white,
